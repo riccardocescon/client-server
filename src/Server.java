@@ -16,7 +16,7 @@ public class Server {
 
     
     public static void main(String[] args) throws Exception {
-        int port = 24680;
+        int port = 12345;   // Port
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             Socket connectionRequest = null;
 

@@ -4,8 +4,8 @@ import java.net.Socket;
 
 public class Client {
     public static void main(String[] args) {
-        String serverIp = "188.228.195.100";
-        int port = 24680;
+        String serverIp = "<Server_Ip>";    // Server Ip
+        int port = 12345;                   //Server port
 
         try (Socket connection = new Socket(serverIp, port)) {
             System.out.println("Connected to server!");
@@ -37,11 +37,3 @@ public class Client {
     }
 
 }
-    
-
-    /*
-    
-    String serverIp = "188.228.195.100";
-    
-}
-*/
